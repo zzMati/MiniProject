@@ -1,0 +1,11 @@
+.title {
+    font-family: 'Montserrat';
+    color: #18181b;
+    opacity: 80%;
+    text-align: center;
+}
+
+body {
+    background-color: #f4f4f5;
+    margin: 0;
+}
