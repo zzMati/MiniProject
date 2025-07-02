@@ -1,11 +1,136 @@
 .title {
     font-family: 'Montserrat';
     color: #18181b;
-    opacity: 80%;
+    opacity: 0.8;
     text-align: center;
 }
 
 body {
     background-color: #f4f4f5;
     margin: 0;
+}
+
+.ParamContenair {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  padding: 20px;
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  font-family: 'Montserrat';
+  color: #18181b;
+}
+
+input {
+    text-align: center;
+    border-color: #f4f4f5;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    color: #18181b;
+    opacity: 0.8;
+}
+
+/* Label centré */
+label {
+  text-align: center;
+  margin-bottom: 8px;
+  font-family: 'Montserrat';
+  color: #18181b;
+  opacity: 0.8;
+}
+
+
+.ButtonContenair {
+    display: inline-flex; /* ✅ inline-flex = prend juste la taille de son contenu */
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e4e4e7;
+    font-family: 'Montserrat';
+    font-weight: bold; /* ✅ correction de 'font: bold;' */
+    margin: 100px auto; /* centré horizontalement */
+    padding: 20px; /* optionnel : pour respirer autour des boutons */
+    gap: 16px; /* espace entre les boutons */
+    border-radius: 8px; /* optionnel : coins arrondis */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Button {
+  width: 400x;     /* largeur fixe */
+  padding: 12px 24px;  /* augmente la taille intérieure */
+  font-size: 16px;     /* agrandit le texte */
+}
+
+.red {
+    font-family: 'Montserrat';
+    background-color: #f87171;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border-color: #f87171;
+    font-weight: bold;
+    color: #7f1d1d;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.blue {
+    font-family: 'Montserrat';
+    background-color: 	#60a5fa;
+    border-color: 	#60a5fa;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 100px;
+    height: 100px;
+    color: #1e3a8a;
+}
+
+.purple {
+    font-family: 'Montserrat';
+    background-color: 	#a78bfa;
+    border-color: 	#a78bfa;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 100px;
+    height: 100px;
+    color: #4c1d95;
+}
+
+.pink {
+    font-family: 'Montserrat';
+    background-color: 	#fb7185;
+    border-color: 	#fb7185;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 100px;
+    height: 100px;
+    color: #881337;
+}
+
+.green {
+    font-family: 'Montserrat';
+    background-color: #4ade80;
+    border-color:#4ade80;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 100px;
+    height: 100px;
+    color: #14532d;
+}
+
+.yellow {
+    font-family: 'Montserrat';
+    background-color: #facc15;
+    border-color:#facc15;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 100px;
+    height: 100px;
+    color: 	#78350f;
 }
